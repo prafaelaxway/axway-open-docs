@@ -67,7 +67,9 @@ placeholder
 
 The following are known issues for this update.
 
-placeholder
+| Internal ID | Description                                                                                                                                                                                                                                                                                                                                   |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| RDAPI-22573 | **Issue**: Service pack update fails with the following message when passphrases are in use: `"Problem connecting to store:  Invalid passphrase for configuration"`. **Workaround**: Wait for the purge task which runs every 10 minutes on the NodeManager process, to remove old gateway configurations before starting the update process. |
 
 ## Update a classic (non-container) deployment
 
